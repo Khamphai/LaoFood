@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Lao Food</string>
+
+    <string name="language_setting">Change Language</string>
+    <string name="about">About Us</string>
+    <string name="detail">Detail of Food</string>
+    <string name="share">Share</string>
+
+    <string name="lang_dialog_title">Change Language</string>
+    <string name="lang_dialog_message">Do you want to Change Language ?</string>
+
+    <string name="change">Change</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="oc_larm">Or larm (Lao stew)</string>
+    <string name="khaoniew">Khao niew (Sticky rice)</string>
+
+    <string name="papaya_salat">Tam mark houng (Papaya salad)</string>
+    <string name="larb">Larb</string>
+
+    <string name="khaolarm">Khao Larm</string>
+    <string name="khao_g">Khao jee pate (Baguette Sandwich)</string>
+
+    <string name="sai_oua">Sai Oua</string>
+    <string name="fer">Pher (Noodle soup)</string>
+
+
+    <!--Data details-->
+    <string name="detail_fer">It’s a kind of Lao noodle food which is popular, easy to find for eating in everywhere in Laos and also enjoyed at any time of the day.</string>
+    <string name="detail_khao_niew">Sticky rice is the staple in Lao which have access in every meal, where it is especially beloved and it tells the Lao unique actually.</string>
+    <string name="detail_papaya">Papaya salad is the kind of spicy food, is a type of salad made from sliced raw papaya which mixed with a seasoning and some ingredients. It’s very famous dish in a group of Lao teenager.</string>
+    <string name="detail_larb">Larb is a traditional dish made from chopped meat, chicken or duck and mixed with some ingredients .we can see this kind of food in every Lao traditional festival such as : PI MAI LAO, Warm house festival… because they believe it will bring luck to them.
+    \n-	Larb: It’s means lucky of Lao.</string>
+    <string name="detail_khao_larm">Khao rarm it’s a sticky rice in bamboo then take it to burn. We can see this food in the Lao traditional festival.</string>
+    <string name="detail_khao_g">Khao jee pate is a typical Lao food, baguette is filled with tomatoes, cheese, pork, meat topped, chili sauce… and it’s also famous breakfast for Lao because it’s fast making and easy to eat.</string>
+    <string name="oc_larm_detail">Or larm is the traditional food form the northern of Laos. Most of this comprises mainly vegetables such as: bean, Chilies, green onion… and optional meat (Classically prepare with buffalo meat).</string>
+    <string name="sai_oua_detail">Also known as ‘sai oua’, Lao sausage makes a pleasant appetizer or snack. Chopped pork meat,seasoned with herbs such as lemongrass, kaffir lime leaves, shallots, cilantro...</string>
+
+
+    <!-- Language select dialog -->
+    <string-array name="lang_select">
+        <item>English Language</item>
+        <item>Lao Language</item>
+    </string-array>
+
+
+</resources>

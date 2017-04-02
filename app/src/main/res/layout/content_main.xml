@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imb_show_sai_oua"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/selector_overlay"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_sai_oua" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="@color/colorBgText"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:text="@string/sai_oua"
+                android:textSize="16sp" />
+        </LinearLayout><!--end of Sub Linear vertical-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imb_show_khao_niew"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/selector_overlay"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_khao_niew" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:background="@color/colorBgText"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:text="@string/khaoniew"
+                android:textSize="16sp" />
+        </LinearLayout><!--end of Sub Linear vertical-->
+
+    </LinearLayout><!--end of 1 Linear horizontal-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imb_show_papaya"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/selector_overlay"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_papaya" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="@color/colorBgText"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:text="@string/papaya_salat"
+                android:textSize="16sp" />
+        </LinearLayout><!--end of Sub Linear vertical-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imb_show_larb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/selector_overlay"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_larb" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:background="@color/colorBgText"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:text="@string/larb"
+                android:textSize="16sp" />
+        </LinearLayout><!--end of Sub Linear vertical-->
+
+    </LinearLayout><!--end of 2 Linear horizontal-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imb_show_khao_larm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/selector_overlay"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_khao_larm" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="@color/colorBgText"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:text="@string/khaolarm"
+                android:textSize="16sp" />
+        </LinearLayout><!--end of Sub Linear vertical-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imb_show_khao_g"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/selector_overlay"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_khao_g" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:background="@color/colorBgText"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:text="@string/khao_g"
+                android:textSize="16sp" />
+        </LinearLayout><!--end of Sub Linear vertical-->
+
+    </LinearLayout><!--end of 3 Linear horizontal-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imb_show_fer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/selector_overlay"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_fer" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="@color/colorBgText"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:text="@string/fer"
+                android:textSize="16sp" />
+        </LinearLayout><!--end of Sub Linear vertical-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imb_show_oc_larm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/selector_overlay"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_oc_larm" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:background="@color/colorBgText"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:text="@string/oc_larm"
+                android:textSize="16sp" />
+        </LinearLayout><!--end of Sub Linear vertical-->
+
+    </LinearLayout><!--end of 4 Linear horizontal-->
+
+</LinearLayout><!--end of Main Linear vertical-->
